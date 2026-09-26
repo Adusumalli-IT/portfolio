@@ -1,0 +1,220 @@
+*{
+    /*border:1px solid red;*/
+    margin:0%;
+    font-family: sans-serif;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    border-bottom: 2px solid white;
+
+
+}
+#navbar a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvfrpLylEDsX4Bu_2XA5nXp1HJjAWBPFbPHUJJ9UhpSA&s=10');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+}
+.aboutleft{
+    width:50%;
+    padding:80px;
+}
+.aboutright{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: block;
+    transform: translateY(40px);
+}
+    
+.aboutleft h1{
+    margin-bottom: 20px;
+    color:rgb(182, 177, 177);
+}
+.aboutleft h2{
+    margin-bottom: 20px;
+    color:rgb(214, 209, 209);
+}
+.aboutleft p{
+    margin-bottom: 20px;
+    color: rgb(223, 214, 214);
+    text-align: justify;
+}
+.aboutbtns button{
+    background-color: rgb(240, 237, 146);
+    padding: 10px;
+    font-weight: bold;
+    border:none;
+}
+.aboutbtns button:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+.section2{
+    text-align: center;
+    margin: 20px 0px;
+}
+#achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    width: 20%;
+    border: 0.6px solid grey;
+    margin: 20px;
+    text-align: center;
+    margin: 20px;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px grey;
+    box-shadow: black;
+}
+.heading {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+
+#Projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card1 {
+    width: 300px;
+    height: 300px;
+    box-shadow: -2px -3px 10px grey;
+    padding: 10px;
+}
+
+.card1 img {
+    width: 50%;
+}
+
+.card1 p {
+    margin-bottom: 10px;
+}
+
+.card1 a {
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    padding: 10px 20px;
+    margin-top: auto;
+}
+
+#Education {
+    background-color: black;
+    padding: 50px;
+}
+
+.tablecontent {
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+th {
+    color: gold;
+}
+
+#Contactform {
+    padding: 30px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+
+.contact-box label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.contact-box input {
+    padding: 10px;
+}
+
+.contact-box textarea {
+    padding: 30px;
+}
+
+.contact-box button {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.declaration-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  background-color: lightblue;
+}
+.dec-right{
+  text-align: right;
+}
+@media all and (max-width:576px){
+    #navbar{
+        background-color: blue;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:768px){
+    #navbar {
+        background-color: green;
+    }
+}
+@media all and (min-width: 768px) and (max-width:992px)
+{
+    #navbar{ 
+        background-color: brown;
+    }
+}
+@media all and(win-width:992px) and (max-width:1200px)
+{
+    #navbar{ 
+        background-color: red;
+    }
+}
